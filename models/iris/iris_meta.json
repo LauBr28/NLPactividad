@@ -1,0 +1,26 @@
+{
+  "model_name": "iris_logreg_pipeline",
+  "created_at": "2025-08-17 03:07:46",
+  "features": [
+    "sepal_length",
+    "sepal_width",
+    "petal_length",
+    "petal_width"
+  ],
+  "target_names": [
+    "setosa",
+    "versicolor",
+    "virginica"
+  ],
+  "metrics": {
+    "accuracy": 0.9333333333333333
+  },
+  "sklearn_version": "1.5.1",
+  "python_version": "3.10.18",
+  "pipeline": [
+    "SimpleImputer(median)",
+    "StandardScaler()",
+    "LogisticRegression(max_iter=1000)"
+  ],
+  "model_version": "1.0.0"
+}
